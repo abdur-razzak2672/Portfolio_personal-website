@@ -834,6 +834,34 @@ footer{
 
 
 }
+
+@media (max-width :10px){
+    .services .services-content .card{
+       width: 100%;
+   }
+   .services{
+    height: 1200px;
+   }
+   .contact .right form .button{
+        height: 47px;
+        width: 50%;
+        display: flex;
+    }
+     .teams{
+        height: 800px;
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+    }
+    .home{
+        height: 60vh;
+    }
+
+
+}
  
 
 
