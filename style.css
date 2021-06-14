@@ -646,39 +646,16 @@ footer{
 
  /* responsive media */
 
-@media (max-width :1118px){
-
-    .about .about-content .left img{
-        height: 300px;
-        width: 300px;
-    }
-    
-}
-
-
-
-@media (max-width :1018px){
-    .max-width: ;{
-        padding: 0 30px;
-    }
-    .services .services-content .card {
-       width: calc(33% - 20px);
-       margin-bottom: 20px;
-
-   }
-   .services{
-     height: 600px;
-   }
-
-}
-
-
-@media (max-width :872px){
-    .max-width: ;{
+@media only screen and (max-width:870px) {
+  /* For tablets: */
+  .max-width: ;{
         padding: 0 30px;
     }
 
-    
+     .max-width{
+        max-width: 800px;
+     
+    }
 
     .icon{
         display: block;
@@ -686,6 +663,15 @@ footer{
         position: sticky;
         left: 0;
         top: 0;
+    }
+    .home{
+        height: 80vh;
+    }
+    .services{
+     height: 1000px;
+    }
+   .teams{
+        height: 750px;
     }
     .icon i.active:before{
         content: "\f00d";
@@ -724,9 +710,6 @@ footer{
         font-size: 40px;
         margin: 5px 0;
     }
-    .home{
-        height: 80vh;
-    }
 
 
     .about .about-content column{
@@ -736,10 +719,6 @@ footer{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
-    }
-     .max-width{
-        max-width: 800px;
-     
     }
     .about .about-content .right{
         flex: 100%;
@@ -752,13 +731,9 @@ footer{
     }
 
     .services .services-content .card {
-       width: calc(50% - 10px);
-      
-
-   }
-   .services{
-     height: 850px;
-   }
+       width: calc(47% - 1px);
+       margin: 8px;
+     }
    .contact .right form .button{
         height: 47px;
         width: 30%;
@@ -769,87 +744,50 @@ footer{
 
 
 }
-
-@media (max-width :460px){
-    .max-width: ;{
-        padding: 0 23px;
-
-    }
-    .home .home-content .text-2{
-        font-size: 30px;
-             }
-    .home .home-content .text-3{
-        font-size: 30px;
-        margin: 5px 0;
-    }
-
-   
- 
-}
-
-@media (max-width :610px){
-    .max-width: ;{
-        padding: 0 23px;
-
-    }
-    .home .home-content .text-2{
-        font-size: 50px;
-             }
-    .home .home-content .text-3{
-        font-size: 40px;
-        margin: 5px 0;
-    }
-    .home .home-content a{
-        font-size: 20px;
-        padding: 9px 27px;
-    }
-     
-    
-}
-
-@media (max-width :750px){
+@media only screen and (max-width:735px) {
     .services .services-content .card{
-       width: 100%;
+      width: 550px;
    }
+
+}
+
+
+
+ 
+
+@media only screen and (max-width:560px) {
+  /* For mobile phones: */
+  
    .services{
     height: 1100px;
+    width: 500px;
+
    }
-   .contact .right form .button{
-        height: 47px;
-        width: 50%;
-        display: flex;
-    }
-     .teams{
+    .teams{
         height: 750px;
+        width: 500px;
     }
-    .home .home-content .text-3{
-        font-size: 35px;
+    .about{
+        width: 500px;
     }
-    .home .home-content .text-2{
-        font-size: 40px;
+    .skills{
+        width: 500px;
     }
-    .home{
-        height: 50vh;
+    .contact{
+        width: 500px;
     }
-
-
-}
-
-@media (max-width :10px){
+    footer{
+        width: 500px;
+    }
     .services .services-content .card{
-       width: 100%;
+       width: calc(100% - 20px);
+       margin: 10px;
    }
-   .services{
-    height: 1200px;
-   }
-   .contact .right form .button{
+    .contact .right form .button{
         height: 47px;
         width: 50%;
         display: flex;
     }
-     .teams{
-        height: 800px;
-    }
     .home .home-content .text-3{
         font-size: 35px;
     }
@@ -857,14 +795,10 @@ footer{
         font-size: 40px;
     }
     .home{
-        height: 60vh;
+        height: 80vh;
     }
-
-
+    .teams .carousel .card{
+        height: 400px;
+        width: 380px;
+    }
 }
- 
-
-
-
-
- 
